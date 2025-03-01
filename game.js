@@ -32,5 +32,18 @@ function AIturn(){
 }
 
 function ClikedCell(event){
-    
+
 }
+
+document.querySelector("button").forEach(cell => cell.addEventListhener("click", ClikedCell));
+
+document.getElementById("btn-restart").addEventListener("click", function(){
+    board = [
+        [0,0,0],
+        [0,0,0],
+        [0,0,0]
+    ];
+    document.querySelectorAll("button")forEach(cell => cell.innerText = "")
+    document.getElementById("message").innereText = "";
+
+});
