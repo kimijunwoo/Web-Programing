@@ -1,5 +1,45 @@
-top{
+h1{
     width: 1000px;
     height: 200;
     background-color: greenyellow;
+}
+
+#tB1{
+    width: 30px;
+    height: 30px;
+}
+
+#tB2{
+    width: 30px;
+    height: 30px;
+}
+
+#tB3{
+    width: 30px;
+    height: 30px;
+}
+
+#tB5{
+    width: 30px;
+    height: 30px;
+}
+
+#tB6{
+    width: 30px;
+    height: 30px;
+}
+
+#tB7{
+    width: 30px;
+    height: 30px;
+}
+
+#tB8{
+    width: 30px;
+    height: 30px;
+}
+
+#tB9{
+    width: 30px;
+    height: 30px;
 }
