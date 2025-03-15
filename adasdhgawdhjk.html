@@ -6,6 +6,15 @@ function buttonclick(){
     tot = tot + parseInt(ret);
     document.getElementById("total").innerText = tot;
 }
+
+var x;
+function sample(){
+    var x;
+    x = 1;
+    this.x = 100;
+    document.getElementById("x").innerText = x;
+    document.getElementById("thisx").innerText = this.x;
+}
 </script>
 <html>
 <head>
@@ -16,6 +25,8 @@ function buttonclick(){
     <button id="button" onclick="buttonclick()">수입력</button>    
     </p>
     <a>총합:</a><a id="total">0</a>
+    <a>x:</a><a id="thisx">?</a>
+    <a>this.x</a><a id="thisx">?</a>
 </body>
 
 </html>
