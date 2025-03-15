@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <script>
+var tot = 0;    
 function buttonclick(){
     var ret = prompt("수 입력","")
+    tot = tot + ret;
     document.getElementById("total").innerText = "?";
 }
 </script>
@@ -13,7 +15,7 @@ function buttonclick(){
     <p>
     <button id="button" onclick="buttonclick">수입력</button>    
     </p>
-    <a>총합:</a><a id="gunplus"></a>
+    <a>총합:</a><a id="total">0</a>
 </body>
 
 </html>
